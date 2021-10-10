@@ -1,0 +1,829 @@
+/*
+    СБРОС CSS    
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0;
+}
+
+body {
+	background-image: url("Pictures/gears.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.container {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 1600px;
+	height: auto;
+	margin: 20px auto;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+header {
+	background-image: url("Pictures/header.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	width: 100%;
+	height: 600px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+header li {
+	background-color: rgb(41, 39, 39);
+	display: inline-block;
+	vertical-align: bottom;
+	height: 50px;
+	width: 320px;
+	position: relative;
+	top: 500px;
+}
+
+header a {
+	display: inline-block;
+	height: 97%;
+	width: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-decoration: none;
+	color: whitesmoke;
+	text-align: center;
+	line-height: 49px;
+	border: 1px solid whitesmoke;
+}
+
+header a:hover {
+	color: rgba(41, 39, 39);
+	background-color: whitesmoke;
+	transition: 0.5s;
+}
+
+header a:active {
+	background-color: rgb(196, 66, 163);
+}
+
+.about {
+	margin-top: 200px;
+	background-image: url("Pictures/avatar-back.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+
+.photo {
+	display: inline-block;
+	vertical-align: top;
+	height: 800px;
+	width: 33%;
+}
+
+.photo img {
+	height: 600px;
+	margin: 100px;
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 50px;
+}
+
+.text {
+	display: inline-block;
+	vertical-align: top;
+	background-color: rgba(0, 0, 0, 0.466);
+	height: 52%;
+	width: 66%;
+	margin-top: 13%;
+	border-radius: 20px;
+}
+
+.text p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.portfolio-header {
+	display: block;
+	margin-top: 200px;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(rgb(57, 80, 102), rgb(38, 56, 73));
+	text-align: center;
+}
+
+.portfolio-header p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 60px;
+	color: rgb(230, 41, 41);
+}
+
+.portfolio {
+	display: block;
+	background-image: url("Pictures/portfolio-back.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 1550px;
+}
+
+.portfolio-image {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 33%;
+	width: 55%;
+}
+
+.portfolio-text {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 27%;
+	width: 45%;
+	vertical-align: top;
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0.466);
+	border-radius: 20px;
+}
+
+.portfolio-text p {
+	margin-top: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	color: whitesmoke;
+}
+
+.pic1 {
+	display: block;
+	position: relative;
+	width: 320px;
+	top: 30px;
+	left: 30px;
+}
+
+.pic2 {
+	display: block;
+	position: relative;
+	width: 300px;
+	top: -150px;
+	left: 200px;
+}
+
+.pic3 {
+	display: block;
+	position: relative;
+	width: 400px;
+	top: -320px;
+	left: 330px;
+}
+
+.pic4 {
+	display: block;
+	position: relative;
+	width: 320px;
+	top: -40px;
+	left: 30px;
+}
+
+.pic5 {
+	display: block;
+	position: relative;
+	width: 350px;
+	top: -210px;
+	left: 200px;
+}
+
+.pic6 {
+	display: block;
+	position: relative;
+	width: 330px;
+	top: -370px;
+	left: 385px;
+}
+
+.pic7 {
+	display: block;
+	position: relative;
+	width: 320px;
+	top: -70px;
+	left: 30px;
+}
+
+.pic8 {
+	display: block;
+	position: relative;
+	width: 320px;
+	top: -240px;
+	left: 210px;
+}
+
+.pic9 {
+	display: block;
+	position: relative;
+	width: 335px;
+	top: -400px;
+	left: 380px;
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9 {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.pic1:hover, .pic2:hover, .pic4:hover,
+.pic5:hover, .pic6:hover, .pic7:hover,
+.pic8:hover, .pic9:hover {
+	width: 50%;
+	transition: 0.5s;
+	z-index: 100;
+}
+
+.pic3:hover {
+	width: 60%;
+	transition: 0.5s;
+	z-index: 100;
+}
+
+.quotes {
+	display: block;
+	margin-top: 200px;
+	background-image: url("Pictures/quotes-back.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+
+.quotes-header {
+	display: block;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(rgb(57, 80, 102), rgb(38, 56, 73));
+	text-align: center;
+}
+
+.quotes-header p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 60px;
+	color:  rgb(230, 41, 41);
+}
+
+.citata1 {
+	display: block;
+	width: 450px;
+	height: 180px;
+	background-color: white;
+	text-align: center;
+	border: 2px solid rgb(223, 48, 48);
+	border-radius: 30px;
+	position: relative;
+	top: 40px;
+	left: 50px;
+}
+
+.citata2 {
+	display: block;
+	width: 480px;
+	height: 200px;
+	background-color: white;
+	text-align: center;
+	border: 2px solid rgb(223, 48, 48);
+	border-radius: 30px;
+	position: relative;
+	top: 75px;
+	left: 300px;
+}
+
+.citata3 {
+	display: block;
+	width: 600px;
+	height: 200px;
+	background-color: white;
+	text-align: center;
+	border: 2px solid rgb(223, 48, 48);
+	border-radius: 30px;
+	position: relative;
+	top: 110px;
+	left: 50px;
+}
+
+
+.citata4 {
+	display: block;
+	width: 550px;
+	height: 230px;
+	background-color: white;
+	text-align: center;
+	border: 2px solid rgb(223, 48, 48);
+	border-radius: 30px;
+	position: relative;
+	top: -500px;
+	left: 850px;
+}
+
+
+.citata5 {
+	display: block;
+	width: 540px;
+	height: 200px;
+	background-color: white;
+	text-align: center;
+	border: 2px solid rgb(223, 48, 48);
+	border-radius: 30px;
+	position: relative;
+	top: -420px;
+	left: 930px;
+}
+
+.citata-text {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: rgb(41, 39, 39);
+	margin-top: 10px;
+}
+
+.citata-author {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: rgb(41, 39, 39);
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.citata1:hover, .citata2:hover, .citata3:hover, 
+.citata4:hover, .citata5:hover {
+	background-color: rgb(145, 154, 184);
+	transition: 0.5s;
+}
+
+.partners {
+	display: block;
+	margin-top: 200px;
+	background-image: url("Pictures/partners-back.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+}
+
+.partners-header {
+	display: block;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(rgb(57, 80, 102), rgb(38, 56, 73));
+	text-align: center;
+}
+
+.partners-header p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 60px;
+	color:  rgb(230, 41, 41);
+}
+
+.autodesk {
+		display: inline-block;
+		box-sizing: border-box;
+		height: 100%;
+		width: 33%;
+}
+
+.autodesk img {
+	display: block;
+	border-radius: 20px;
+	width: 85%;
+	margin: 43% auto;
+}
+
+.dassault {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 100%;
+	width: 33%;
+}
+
+.dassault img {
+	display: block;
+	border-radius: 20px;
+	width: 70%;
+	margin: 39% auto;
+}
+
+.microsoft {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 100%;
+	width: 33%;
+}
+
+.microsoft img {
+	display: block;
+	border-radius: 20px;
+	width: 78%;
+	margin: 39% auto;
+}
+
+.feedback {
+	display: block;
+	margin-top: 150px;
+	background-color: rgba(0, 0, 0, 0.705);
+	width: 25%;
+	margin-left:  auto;
+	margin-right: auto;
+	height: 700px;
+	border-radius: 20px;
+}
+
+.feedback-header {
+	display: block;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(rgb(57, 80, 102), rgb(38, 56, 73));
+	text-align: center;
+	border-top-left-radius:  20px;
+	border-top-right-radius: 20px;
+}
+
+.feedback-header p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 60px;
+	color:  rgb(230, 41, 41);
+}
+
+form {
+	margin: 30px auto;
+	border: 1px solid #c6c7cc;
+	border-radius: 5px;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	overflow: hidden;
+	width: 300px;
+  }
+  fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+  }
+  input {
+	border-radius: 5px;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+  }
+
+  textarea {
+	border-radius: 5px;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+  }
+
+  label {
+	font: 20px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .account-info {
+	padding: 20px 30px 0 20px;
+  }
+  .account-info label {
+	color: whitesmoke;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  .account-info input {
+	background: #fff;
+	border: 1px solid #c6c7cc;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+	color: #636466;
+	padding: 6px;
+	margin-top: 6px;
+	width: 100%;
+  }
+  .account-info textarea {
+	background: #fff;
+	border: 1px solid #c6c7cc;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+	color: #636466;
+	padding: 6px;
+	margin-top: 6px;
+	width: 100%;
+  }
+  .account-action {
+	background: #f0f0f2;
+	border-top: 1px solid #c6c7cc;
+	padding: 20px;
+  }
+  .account-action .btn {
+	background: linear-gradient(#49708f, #293f50);
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	float: left;
+	padding: 8px 16px;
+  }
+  .account-action label {
+	color: #7c7c80;
+	font-size: 12px;
+	float: left;
+	margin: 10px 0 0 20px;
+  }
+
+  footer {
+	display: block;
+	background: linear-gradient(#49708f, #293f50);
+	width: 100%;
+	height: 200px;
+}
+
+.contacts {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	width: 300px;
+	height: 180px;
+	top: 10px;
+	left: 30px;
+	border: 2px solid whitesmoke;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.contacts p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	margin-top: 5px;
+}
+
+.lined {
+	text-decoration: underline;
+}
+
+.contacts a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+.contacts a:hover {
+	color: rgb(241, 80, 80);
+	text-decoration: underline;
+}
+
+.social {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	width: 560px;
+	height: 100px;
+	top: -140px;
+	left: 500px;
+	border: 2px solid whitesmoke;
+	border-radius: 15px;
+}
+
+.social p {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	margin-left: 10px;
+}
+
+.social a img {
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-top: 7px;
+}
+
+footer nav {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	width: 160px;
+	height: 180px;
+	top: -260px;
+	left: 1270px;
+	/*border: 2px solid whitesmoke;
+	border-radius: 15px;*/
+	text-align: left;
+}
+
+footer a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.copyright {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: 30px;
+	top: -290px;
+	text-align: center;
+}
+
+.copyright p strong {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: rgb(0, 0, 0);
+}
+
+.naverh {
+	display: block;
+	position: fixed;
+	top: 800px;
+	left: 35px;
+	background-color: whitesmoke;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.naverh:hover {
+	background-color: rgb(241, 135, 227);
+}
+
+.biomainblock {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-image: url("Pictures/bio-back.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 1600px;
+}
+
+.biotext {
+	display: inline-block;
+	vertical-align: top;
+	height: 50%;
+	width: 67%;
+}
+
+.biotext p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.bio img {
+	position: relative;
+	right: 50px;
+}
+
+.portmainblock {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-image: url("Pictures/port-back.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 1600px;
+}
+
+.portblock {
+	display: block;
+	height: 400px;
+}
+
+.img-port {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	height: 100%;
+}
+
+.img-port img {
+	height: 90%;
+	border: 1px solid black;
+	border-radius: 10%;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+.text-port {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	height: 100%;
+}
+
+.text-port p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	margin-top: 20%;
+	margin-right: 10%;
+}
+
+table {
+	display: block;
+	margin: 100px auto;
+	border-collapse: collapse;
+	width: 700px;
+	background-color: whitesmoke;
+}
+
+table tr td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	color: rgb(0, 0, 0);
+	border-left: 3px solid rgb(0, 0, 0);
+	border-right: 3px solid rgb(0, 0, 0);
+	border-top: 1px solid rgb(158, 158, 158);
+	height: 60px;
+	padding-left: 10px;
+}
+
+table th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	border: 3px solid rgb(0, 0, 0);
+	height: 60px;
+}
+
+.center {
+	text-align: center;
+}
+
+table tr:last-child {
+	border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+table tr:hover {
+	background-color: rgb(194, 188, 188);
+	transition: 0.2s;
+}
+
+.contacts-header {
+	display: block;
+	background: linear-gradient(#49708f, #293f50);
+	height: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.contacts-header p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	line-height: 50px;
+}
+
+.map iframe {
+	display: block;
+	margin: 50px auto;
+}
+
+.tel {
+	height: 300px;
+}
+
+.tel a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+.tel a:hover {
+	color: rgb(241, 80, 80);
+	text-decoration: underline;
+}
+
+.cont {
+	margin-top: 50px;
+}
